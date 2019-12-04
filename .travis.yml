@@ -1,7 +1,0 @@
-language: java
-jdk: openjdk11
-addons:
-        sonarcloud:
-                organization: "educostabra-github"
-script:
-        mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar 
